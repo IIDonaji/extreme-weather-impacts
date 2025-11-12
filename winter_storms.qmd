@@ -17,18 +17,7 @@ editor_options:
 editor: visual
 ---
 ## README.md Screenshot
-![]("eds223-hw3-README.png") "change"
-maps: 
-- 1 after storm 
-- 2 before storm 
-- 3 Houston homes that lost power estimate 
-- 4 census tract of Houston homes that lost power plot: household income for census tract that did and did not experience blackouts (median distributions of the ones that did and ones that did not?)
-
-Workflow: 
-- find locations that experiance blackout 
-- exclude highways
-- home locations plus blackouts =homes that experiance blackout 
-- census track and blackout
+![]("README.png") 
 
 # Set-up:librarys and data files preparation
 
@@ -163,7 +152,10 @@ houston_bbox <- st_bbox(c(
 
 # Convert to sf polygon
 blackout_houston <- st_as_sfc(houston_bbox)
+```
 
+
+```{r}
 # Check CRS match before intersection (Verification)
 if (st_crs(houston_bbox)$epsg != st_crs(blackout_mask_sf)$epsg) {
   # If CRSs mismatch after projection, this error will halt execution (Custom Error)

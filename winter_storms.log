@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.10)  11 NOV 2025 23:47
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.11.10)  12 NOV 2025 00:01
  restricted system commands enabled.
 **winter_storms.tex
 (./winter_storms.tex
@@ -1039,16 +1039,16 @@ No file winter_storms.toc.
 
 \openout4 = winter_storms.toc
 
-LaTeX Warning: File `"eds223-hw3-README.png"' not found on input line 234.
+LaTeX Warning: File `"README.png"' not found on input line 234.
 
 
-! Package luatex.def Error: File `eds223-hw3-README.png' not found: using draft setting.
+! Package luatex.def Error: File `README.png' not found: using draft setting.
 
 See the luatex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.234 ...[keepaspectratio]{"eds223-hw3-README.png"}}
+l.234 ...udegraphics[keepaspectratio]{"README.png"}}
                                                   
 
 Here is how much of LuaTeX's memory you used:
